@@ -139,8 +139,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DFS_BFS.cpp" />
+    <ClCompile Include="hash.cpp" />
+    <ClCompile Include="heap.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="sort.cpp" />
     <ClCompile Include="stack_queue.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DFS_BFS.h" />
+    <ClInclude Include="hash.h" />
+    <ClInclude Include="heap.h" />
+    <ClInclude Include="sort.h" />
+    <ClInclude Include="stack_queue.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

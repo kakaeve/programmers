@@ -1,8 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <stack>
-#include <cmath>
+#include "stack_queue.h"
 
 using namespace std;
 
@@ -14,7 +10,7 @@ void print(vector<int> v) {
 		
 }
 
-vector<int> solution(vector<int> progresses, vector<int> speeds) {
+vector<int> solution1(vector<int> progresses, vector<int> speeds) {
     vector<int> answer;
 
 	stack<int> p;
@@ -53,61 +49,3 @@ vector<int> solution(vector<int> progresses, vector<int> speeds) {
 
     return answer;
 }
-
-int main() {
-	vector<int> input_1;
-	vector<int> speeds_1;
-	vector<int> input_2;
-	vector<int> speeds_2;
-	vector<int> input_3;
-	vector<int> speeds_3;
-
-	
-
-	input_1.push_back(93);
-	input_1.push_back(30);
-	input_1.push_back(55);
-
-	speeds_1.push_back(1);
-	speeds_1.push_back(30);
-	speeds_1.push_back(5);
-
-	input_2.push_back(95);
-	input_2.push_back(90);
-	input_2.push_back(99);
-	input_2.push_back(99);
-	input_2.push_back(80);
-	input_2.push_back(99);
-
-	speeds_2.push_back(1);
-	speeds_2.push_back(1);
-	speeds_2.push_back(1);
-	speeds_2.push_back(1);
-	speeds_2.push_back(1);
-	speeds_2.push_back(1);
-
-	input_3.push_back(5);
-	input_3.push_back(5);
-	input_3.push_back(5);
-
-	speeds_3.push_back(21);
-	speeds_3.push_back(25);
-	speeds_3.push_back(20);
-	
-
-	//input_3.push_back(3);
-	//input_3.push_back(3);
-
-
-
-
-	print(solution(input_1, speeds_1));
-	print(solution(input_2, speeds_2));
-	print(solution(input_3, speeds_3));
-
-	//cout << solution(input_3) << endl;
-
-
-	return 0;
-}
-
