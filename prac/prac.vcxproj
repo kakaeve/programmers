@@ -139,7 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="binary_search.cpp" />
     <ClCompile Include="DFS_BFS.cpp" />
+    <ClCompile Include="graph.cpp" />
     <ClCompile Include="hash.cpp" />
     <ClCompile Include="heap.cpp" />
     <ClCompile Include="main.cpp" />
@@ -148,10 +150,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DFS_BFS.h" />
+    <ClInclude Include="graph.h" />
     <ClInclude Include="hash.h" />
     <ClInclude Include="heap.h" />
     <ClInclude Include="sort.h" />
     <ClInclude Include="stack_queue.h" />
+    <ClInclude Include="binary_search.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

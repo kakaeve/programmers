@@ -1,18 +1,32 @@
-#include "DFS_BFS.h"
+#include "graph.h"
 
 using namespace std;
 
 int main() {
 
-	//DFS_BFS
+	//graph2
 	{
+		cout << solution(6, { {3,6},{4,3},{3,2},{1,3},{1,2},{2,4}, {5,2} }) << endl;
+		cout << solution2(5, { {4,3},{4,2},{3,2},{1,2},{2,5} });
+	}
+
+	//binary_search1
+	/*{
+		int n = 6;
+		vector<int> input = { 7,10 };
+		cout << solution1(n, input) << endl;
+	}*/
+
+
+	//DFS_BFS
+	/*{
 		vector<int> input = { 1,1,1,1,1 };
 		int target = 3;
 		cout << solution1(input, target) << endl;
 		input = { 4,1,2,1 };
 		target = 4;
 		cout << solution1(input, target) << endl;
-	}
+	}*/
 
 	//heap solution
 	/*{
@@ -51,7 +65,7 @@ int main() {
 	}*/
 
 
-	//sort solution
+	//sort2 solution
 	/*{
 		vector<int> input_1;
 		vector<int> input_2;
