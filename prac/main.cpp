@@ -1,14 +1,19 @@
-#include "graph.h"
+#include "level1.h"
 
 using namespace std;
 
 int main() {
 
-	//graph2
+	//level1
 	{
+
+	}
+
+	//graph2
+	/*{
 		cout << solution(6, { {3,6},{4,3},{3,2},{1,3},{1,2},{2,4}, {5,2} }) << endl;
 		cout << solution2(5, { {4,3},{4,2},{3,2},{1,2},{2,5} });
-	}
+	}*/
 
 	//binary_search1
 	/*{
